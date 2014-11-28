@@ -1,0 +1,26 @@
+.corner {
+	width:10px;
+	height:10px;
+	border:2px solid green;
+	-webkit-transition:all ease-in 50ms;
+	opacity:0;
+}
+.corner-top {
+	border-right:none;
+	border-bottom:none;
+}
+.corner-right {
+	border-bottom:none;
+	border-left:none;
+}
+.corner-bottom {
+	border-left:none;
+	border-top:none;
+}
+.corner-left {
+	border-top:none;
+	border-right:none;
+}
+.corner-show {
+	opacity:1;
+}
