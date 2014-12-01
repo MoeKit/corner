@@ -1,7 +1,7 @@
 .corner {
 	width:10px;
 	height:10px;
-	border:2px solid green;
+	border:2px solid #f54996;
 	-webkit-transition:all ease-in 50ms;
 	opacity:0;
 }
